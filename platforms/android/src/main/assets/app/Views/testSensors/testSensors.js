@@ -1,27 +1,27 @@
-var frameModule = require("ui/frame")
+var frameModule = require("ui/frame");
 
+function Navigate(view) {
+
+	var topMost = frameModule.topmost();	
+	topMost.navigate(view);
+}
 
 exports.testCamera = function() {
-	var topMost = frameModule.topmost();
-	topMost.navigate("Views/testcases/sensors/camera/testCamera");
+	Navigate("Views/testcases/sensors/camera/testCamera");
 }
 
 exports.testVibrate = function() {
-	var topMost = frameModule.topmost();
-	topMost.navigate("Views/testcases/sensors/vibrate/testVibrate");
+	Navigate("Views/testcases/sensors/vibrate/testVibrate");
 }
 
 exports.testWifi = function() {
-	var topMost = frameModule.topmost();
-	topMost.navigate("Views/testcases/sensors/wifi/testWifi");
+	Navigate("Views/testcases/sensors/wifi/testWifi");
 }
 
 exports.testBluetooth = function() {
-	var topMost = frameModule.topmost();
-	topMost.navigate("Views/testcases/sensors/bluetooth/testBluetooth");
+	Navigate("Views/testcases/sensors/bluetooth/testBluetooth");
 }
 
 exports.testGPS = function() {
-	var topMost = frameModule.topmost();
-	topMost.navigate("Views/testcases/sensors/gps/testGPS")
+	Navigate("Views/testcases/sensors/gps/testGPS");
 }
