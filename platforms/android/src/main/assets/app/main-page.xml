@@ -1,0 +1,6 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+  <StackLayout>
+	<Button text="Test sensors" tap="testSensors" width="80%"/>
+	<Button text="Test UI" tap="testUI" width="80%"/>
+  </StackLayout>
+</Page>

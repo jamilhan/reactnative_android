@@ -1,0 +1,6 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="onLoad">
+  <StackLayout>
+	<Label text="Deze testcases testen de aansturing van WIFI" />
+	<Label text="" id="lblResult" />  
+  </StackLayout>
+</Page>
