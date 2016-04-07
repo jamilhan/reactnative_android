@@ -1,0 +1,7 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+  <StackLayout>
+	<Label text="Deze testcases testen de aansturing van de tril sensor" />
+	
+	
+  </StackLayout>
+</Page>

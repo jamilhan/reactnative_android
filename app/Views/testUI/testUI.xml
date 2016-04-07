@@ -1,0 +1,9 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+  <StackLayout>
+	<Label text="User interface element tests" />
+	<Button text="Push Notification" width="80%"/>
+	<Button text="Activity indicator" width="80%"/> 	
+	<Button text="Photo library" width="80%"/> 		
+	<Button text="Map view" width="80%"/> 			
+  </StackLayout>
+</Page>

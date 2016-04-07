@@ -1,0 +1,14 @@
+{
+	"nativescript": {
+		"id": "org.nativescript.NativeScriptTest",
+		"tns-android": {
+			"version": "1.7.1"
+		}
+	},
+	"dependencies": {
+		"nativescript-bluetooth": "^1.1.1",
+		"nativescript-geolocation": "0.0.8",
+		"nativescript-vibrate": "^1.1.1",
+		"tns-core-modules": "1.7.1"
+	}
+}

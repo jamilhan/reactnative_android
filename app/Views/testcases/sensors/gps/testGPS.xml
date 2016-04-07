@@ -1,0 +1,6 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+  <StackLayout>
+	<Label text="Deze testcases testen de aansturing en detectie van GPS" />
+	<Button text="Get Current Location" tap="buttonGetLocationTap"/>
+  </StackLayout>
+</Page>

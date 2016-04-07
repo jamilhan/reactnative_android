@@ -1,0 +1,10 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+  <StackLayout>
+	<Label text="Sensor / actuator tests"/>
+	<Button text="Camera" width="80%" tap="testCamera"/>
+	<Button text="Trilfunctie" width="80%" tap="testVibrate"/> 	
+	<Button text="WI-FI" width="80%" tap="testWifi"/> 		
+	<Button text="Bluetooth" width="80%" tap="testBluetooth"/> 			
+	<Button text="GPS" width="80%" tap="testGPS"/> 			
+  </StackLayout>
+</Page>

@@ -1,0 +1,7 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+  <StackLayout>
+	<Label text="Deze testcase testen de aansturing van de camera" />
+	<Button text="Start test" tap="startTest"/>
+	<Label id="lblResult" text="" />
+  </StackLayout>
+</Page>
