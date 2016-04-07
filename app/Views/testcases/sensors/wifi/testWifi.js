@@ -23,4 +23,4 @@ function TestConnectivity(args) {
 	}
 }
 
-exports.onLoad = TestConnectivity;
+exports.pageLoaded = TestConnectivity;
